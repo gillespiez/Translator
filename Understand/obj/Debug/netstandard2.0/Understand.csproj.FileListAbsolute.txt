@@ -1,0 +1,6 @@
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.csprojAssemblyReference.cache
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.csproj.CoreCompileInputs.cache
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.AssemblyInfoInputs.cache
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.AssemblyInfo.cs

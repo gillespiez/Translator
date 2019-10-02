@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Understand.MainPage"
+             BackgroundColor="#1E1E28"
+             Padding="20,75,20,20">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="PickerStyle" TargetType="Picker">
+                <Setter Property="HorizontalOptions" Value="Start" />
+                <Setter Property="VerticalOptions" Value="Start" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="#23C88E"/>
+                <Setter Property="WidthRequest" Value="111" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="Margin" Value="0,0,12,0" />
+                
+            </Style>
+            
+            <Style x:Key="SwitchStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="Center" />
+                <Setter Property="FontSize" Value="Micro" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="39" />
+                <Setter Property="HeightRequest" Value="39" />
+                <Setter Property="CornerRadius" Value="39" />
+                <Setter Property="BackgroundColor" Value="#2C2C38" />
+                
+            </Style>
+            
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="HorizontalOptions"
+                        Value="Start" />
+                <Setter Property="VerticalOptions"
+                        Value="Start" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="333" />
+                <Setter Property="HeightRequest" Value="155" />
+                <Setter Property="BackgroundColor" Value="#2C2C38" />
+            </Style>
+            <Style x:Key="TranslateButton" TargetType="Button">
+                <Setter Property="HorizontalOptions"
+                        Value="Start" />
+                <Setter Property="VerticalOptions"
+                        Value="Start" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="335" />
+                <Setter Property="HeightRequest" Value="41" />
+                <Setter Property="BackgroundColor" Value="#23C88E" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+            <Style x:Key="SpeakButton" TargetType="Button">
+                <Setter Property="HorizontalOptions"
+                        Value="Start" />
+                <Setter Property="VerticalOptions"
+                        Value="Start" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="333" />
+                <Setter Property="HeightRequest" Value="41" />
+                <Setter Property="BackgroundColor" Value="#23C88E" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="111"></ColumnDefinition>
+                <ColumnDefinition  Width="111"></ColumnDefinition>
+                <ColumnDefinition  Width="111"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Picker x:Name="picker" Title="Language" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="0" >
+                <!--<Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Blue</x:String>
+                        <x:String>Green</x:String>
+
+                    </x:Array>
+                </Picker.ItemsSource>-->
+            </Picker>
+            <Button Text="SWITCH" Style="{StaticResource SwitchStyle}" Grid.Row="0" Grid.Column="1"></Button>
+            <Picker x:Name="picker" Title="Language" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="2" >
+                <!--<Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Blue</x:String>
+                        <x:String>Green</x:String>
+
+                    </x:Array>
+                </Picker.ItemsSource>-->
+            </Picker>
+        </Grid>
+        <Entry Style="{StaticResource EntryStyle}" ></Entry>
+        <Button Text="Translate" Style="{StaticResource TranslateButton}" ></Button>
+        <ImageButton Source="Group 3"></ImageButton>
+    </StackLayout>
+
+</ContentPage>
