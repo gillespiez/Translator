@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Understand.MainPage"
              BackgroundColor="#1E1E28"
-             Padding="20,75,20,20">
+             Padding="20,20,20,20">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -61,17 +61,51 @@
             </Style>
             <Style x:Key="SpeakButton" TargetType="Button">
                 <Setter Property="HorizontalOptions"
-                        Value="Start" />
+                        Value="CenterAndExpand" />
                 <Setter Property="VerticalOptions"
-                        Value="Start" />
+                        Value="CenterAndExpand" />
                 <Setter Property="FontSize" Value="Large" />
+                <Setter Property="HeightRequest" Value="50" />
+               
+               
+            </Style>
+            <!--nav style-->
+            <Style x:Key="HomeButton" TargetType="Button">
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                
                 <Setter Property="TextColor" Value="White" />
-                <Setter Property="WidthRequest" Value="333" />
-                <Setter Property="HeightRequest" Value="41" />
+                
                 <Setter Property="BackgroundColor" Value="#23C88E" />
                 <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="100,20,20,20" />
             </Style>
-            
+            <Style x:Key="RecordButton" TargetType="Button">
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+
+                <Setter Property="BackgroundColor" Value="#23C88E" />
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="100,20,20,20" />
+            </Style>
+            <Style x:Key="ApertureButton" TargetType="Button">
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="Center" />
+                <Setter Property="FontSize" Value="Small" />
+                <Setter Property="TextColor" Value="White" />
+
+                <Setter Property="BackgroundColor" Value="#23C88E" />
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="100,20,20,20" />
+            </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -86,29 +120,49 @@
                 <ColumnDefinition  Width="111"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-            <Picker x:Name="picker" Title="Language" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="0" >
-                <!--<Picker.ItemsSource>
+            <Picker x:Name="currentLang" Title="Language" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="0" >
+                <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Blue</x:String>
                         <x:String>Green</x:String>
 
                     </x:Array>
-                </Picker.ItemsSource>-->
+                </Picker.ItemsSource>
             </Picker>
-            <Button Text="SWITCH" Style="{StaticResource SwitchStyle}" Grid.Row="0" Grid.Column="1"></Button>
-            <Picker x:Name="picker" Title="Language" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="2" >
-                <!--<Picker.ItemsSource>
+            <ImageButton Source="switchLang" Style="{StaticResource SwitchStyle}" Grid.Column="1"></ImageButton>
+            
+            <Picker x:Name="newLang" Title="Language" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="2" >
+                <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Blue</x:String>
                         <x:String>Green</x:String>
 
                     </x:Array>
-                </Picker.ItemsSource>-->
+                </Picker.ItemsSource>
             </Picker>
         </Grid>
         <Entry Style="{StaticResource EntryStyle}" ></Entry>
         <Button Text="Translate" Style="{StaticResource TranslateButton}" ></Button>
-        <ImageButton Source="Group 3"></ImageButton>
+        <ImageButton Source="speak" Style="{StaticResource SpeakButton}"></ImageButton>
+        
+        
+        <!--Nav Buttons-->
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="111"></ColumnDefinition>
+                <ColumnDefinition  Width="111"></ColumnDefinition>
+                <ColumnDefinition  Width="111"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <ImageButton Source="home" Style="{StaticResource HomeButton}" Grid.Column="0" ></ImageButton>
+            <ImageButton Source="record" Style="{StaticResource RecordButton}" Grid.Column="1"></ImageButton>
+            <ImageButton Source="aperture" Style="{StaticResource ApertureButton}" Grid.Column="2"></ImageButton>
+        </Grid>
+       
     </StackLayout>
 
 </ContentPage>

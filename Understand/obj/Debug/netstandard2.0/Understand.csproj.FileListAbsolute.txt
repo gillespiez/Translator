@@ -4,3 +4,11 @@ C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\MainPage.
 C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.csproj.CoreCompileInputs.cache
 C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.AssemblyInfoInputs.cache
 C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.AssemblyInfo.cs
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.dll
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\ref\Understand.dll
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\Understand.pdb
+C:\Users\Mervyn\Desktop\Understand\Understand\bin\Debug\netstandard2.0\Understand.deps.json
+C:\Users\Mervyn\Desktop\Understand\Understand\bin\Debug\netstandard2.0\Understand.dll
+C:\Users\Mervyn\Desktop\Understand\Understand\bin\Debug\netstandard2.0\ref\Understand.dll
+C:\Users\Mervyn\Desktop\Understand\Understand\bin\Debug\netstandard2.0\Understand.pdb
+C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\XamlC.stamp
