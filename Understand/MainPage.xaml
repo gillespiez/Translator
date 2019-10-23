@@ -22,18 +22,12 @@
                 
             </Style>
             
-            <Style x:Key="SwitchStyle" TargetType="Button">
+            <Style x:Key="SwitchStyle" TargetType="ImageButton">
                 <Setter Property="HorizontalOptions"
                         Value="CenterAndExpand" />
                 <Setter Property="VerticalOptions"
                         Value="Center" />
-                <Setter Property="FontSize" Value="Micro" />
-                <Setter Property="TextColor" Value="White" />
-                <Setter Property="WidthRequest" Value="39" />
-                <Setter Property="HeightRequest" Value="39" />
-                <Setter Property="CornerRadius" Value="39" />
-                <Setter Property="BackgroundColor" Value="#2C2C38" />
-                
+
             </Style>
             
             <Style x:Key="EntryStyle" TargetType="Entry">
@@ -59,58 +53,46 @@
                 <Setter Property="BackgroundColor" Value="#23C88E" />
                 <Setter Property="CornerRadius" Value="5" />
             </Style>
-            <Style x:Key="SpeakButton" TargetType="Button">
+            <Style x:Key="SpeakButton" TargetType="ImageButton">
                 <Setter Property="HorizontalOptions"
                         Value="CenterAndExpand" />
                 <Setter Property="VerticalOptions"
                         Value="CenterAndExpand" />
-                <Setter Property="FontSize" Value="Large" />
                 <Setter Property="HeightRequest" Value="50" />
-               
-               
-            </Style>
-            <!--nav style-->
-            <Style x:Key="HomeButton" TargetType="Button">
-                <Setter Property="HorizontalOptions"
-                        Value="CenterAndExpand" />
-                <Setter Property="VerticalOptions"
-                        Value="CenterAndExpand" />
-                
-                <Setter Property="TextColor" Value="White" />
-                
-                <Setter Property="BackgroundColor" Value="#23C88E" />
-                <Setter Property="CornerRadius" Value="5" />
-                <Setter Property="Margin" Value="100,20,20,20" />
-            </Style>
-            <Style x:Key="RecordButton" TargetType="Button">
-                <Setter Property="HorizontalOptions"
-                        Value="CenterAndExpand" />
-                <Setter Property="VerticalOptions"
-                        Value="CenterAndExpand" />
-                <Setter Property="FontSize" Value="Large" />
-                <Setter Property="TextColor" Value="White" />
 
-                <Setter Property="BackgroundColor" Value="#23C88E" />
-                <Setter Property="CornerRadius" Value="5" />
-                <Setter Property="Margin" Value="100,20,20,20" />
             </Style>
-            <Style x:Key="ApertureButton" TargetType="Button">
+            
+            <!--nav style-->
+            <Style x:Key="HomeButton" TargetType="ImageButton">
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="HeightRequest" Value="70" />
+                
+                <Setter Property="Margin" Value="10,10,10,10" />
+            </Style>
+            <Style x:Key="RecordButton" TargetType="ImageButton">
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="HeightRequest" Value="70" />
+                <Setter Property="Margin" Value="10,10,10,10" />
+            </Style>
+            <Style x:Key="ApertureButton" TargetType="ImageButton">
                 <Setter Property="HorizontalOptions"
                         Value="CenterAndExpand" />
                 <Setter Property="VerticalOptions"
                         Value="Center" />
-                <Setter Property="FontSize" Value="Small" />
-                <Setter Property="TextColor" Value="White" />
-
-                <Setter Property="BackgroundColor" Value="#23C88E" />
-                <Setter Property="CornerRadius" Value="5" />
-                <Setter Property="Margin" Value="100,20,20,20" />
+                <Setter Property="HeightRequest" Value="70" />
+                <Setter Property="Margin" Value="10,10,10,10" />
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
 
     <StackLayout>
-        <!--<Grid>
+        <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"></RowDefinition>
             </Grid.RowDefinitions>
@@ -141,15 +123,15 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-        </Grid>-->
+        </Grid>
         <Entry x:Name="userInput" Style="{StaticResource EntryStyle}" ></Entry>
         <Button Text="Translate" Style="{StaticResource TranslateButton}" Clicked="Translate_Button_Clicked"></Button>
-        <!--<ImageButton Source="speak" Style="{StaticResource SpeakButton}"></ImageButton>-->
+      <ImageButton Source="speak" Style="{StaticResource SpeakButton}"/>
 
 
         <!--Nav Buttons-->
 
-        <!--<Grid>
+        <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"></RowDefinition>
             </Grid.RowDefinitions>
@@ -162,7 +144,7 @@
             <ImageButton Source="home" Style="{StaticResource HomeButton}" Grid.Column="0" ></ImageButton>
             <ImageButton Source="record" Style="{StaticResource RecordButton}" Grid.Column="1"></ImageButton>
             <ImageButton Source="aperture" Style="{StaticResource ApertureButton}" Grid.Column="2"></ImageButton>
-        </Grid>-->
+        </Grid>
 
     </StackLayout>
 
