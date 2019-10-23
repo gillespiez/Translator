@@ -2,6 +2,80 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.CognitiveServices.Speech/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "build": {
+          "build/Xamarin.iOS/Microsoft.CognitiveServices.Speech.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.core.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.core.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.core.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-arm/native/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-arm64/native/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -153,6 +227,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.CognitiveServices.Speech": "1.7.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.0.0.425677"
         },
@@ -165,6 +240,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.CognitiveServices.Speech/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "build": {
+          "build/Xamarin.iOS/Microsoft.CognitiveServices.Speech.targets": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -316,6 +403,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.CognitiveServices.Speech": "1.7.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.0.0.425677"
         },
@@ -328,6 +416,22 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.CognitiveServices.Speech/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.core.dll": {},
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {}
+        },
+        "build": {
+          "build/Xamarin.iOS/Microsoft.CognitiveServices.Speech.targets": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -479,6 +583,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.CognitiveServices.Speech": "1.7.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.0.0.425677"
         },
@@ -491,6 +596,22 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.CognitiveServices.Speech/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "native": {
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.core.dll": {},
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {}
+        },
+        "build": {
+          "build/Xamarin.iOS/Microsoft.CognitiveServices.Speech.targets": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -642,6 +763,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.CognitiveServices.Speech": "1.7.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.0.0.425677"
         },
@@ -655,6 +777,147 @@
     }
   },
   "libraries": {
+    "Microsoft.CognitiveServices.Speech/1.7.0": {
+      "sha512": "8YtS2i3dRPUy5PGvIBb4UerXTDz7VKv3CYLQP5AerSzsf1OB45N3bgaxjVMQUu8SERT2+0Le52cQWMy7NLxlLw==",
+      "type": "package",
+      "path": "microsoft.cognitiveservices.speech/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.CognitiveServices.Speech.props",
+        "build/REDIST.txt",
+        "build/Xamarin.iOS/Microsoft.CognitiveServices.Speech.targets",
+        "build/Xamarin.iOS/libMicrosoft.CognitiveServices.Speech.core.a",
+        "build/monoandroid/Microsoft.CognitiveServices.Speech.targets",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/native/Microsoft.CognitiveServices.Speech.targets",
+        "build/native/Win32/Release/Microsoft.CognitiveServices.Speech.core.dll",
+        "build/native/Win32/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/Win32/Release/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "build/native/include/c_api/speechapi_c.h",
+        "build/native/include/c_api/speechapi_c_audio_config.h",
+        "build/native/include/c_api/speechapi_c_audio_stream.h",
+        "build/native/include/c_api/speechapi_c_audio_stream_format.h",
+        "build/native/include/c_api/speechapi_c_common.h",
+        "build/native/include/c_api/speechapi_c_connection.h",
+        "build/native/include/c_api/speechapi_c_conversation_transcriber.h",
+        "build/native/include/c_api/speechapi_c_conversation_transcription_result.h",
+        "build/native/include/c_api/speechapi_c_dialog_service_config.h",
+        "build/native/include/c_api/speechapi_c_dialog_service_connector.h",
+        "build/native/include/c_api/speechapi_c_error.h",
+        "build/native/include/c_api/speechapi_c_factory.h",
+        "build/native/include/c_api/speechapi_c_grammar.h",
+        "build/native/include/c_api/speechapi_c_intent_recognizer.h",
+        "build/native/include/c_api/speechapi_c_intent_result.h",
+        "build/native/include/c_api/speechapi_c_intent_trigger.h",
+        "build/native/include/c_api/speechapi_c_keyword_recognition_model.h",
+        "build/native/include/c_api/speechapi_c_language_understanding_model.h",
+        "build/native/include/c_api/speechapi_c_participant.h",
+        "build/native/include/c_api/speechapi_c_property_bag.h",
+        "build/native/include/c_api/speechapi_c_recognizer.h",
+        "build/native/include/c_api/speechapi_c_result.h",
+        "build/native/include/c_api/speechapi_c_session.h",
+        "build/native/include/c_api/speechapi_c_speech_config.h",
+        "build/native/include/c_api/speechapi_c_speech_translation_config.h",
+        "build/native/include/c_api/speechapi_c_synthesizer.h",
+        "build/native/include/c_api/speechapi_c_translation_recognizer.h",
+        "build/native/include/c_api/speechapi_c_translation_result.h",
+        "build/native/include/c_api/speechapi_c_user.h",
+        "build/native/include/c_api/spxdebug.h",
+        "build/native/include/c_api/spxerror.h",
+        "build/native/include/cxx_api/speechapi_cxx.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_stream.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_stream_format.h",
+        "build/native/include/cxx_api/speechapi_cxx_class_language_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_common.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcriber.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcription_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcription_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_connector.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_connector_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_enums.h",
+        "build/native/include/cxx_api/speechapi_cxx_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_eventsignal.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar_list.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar_phrase.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_trigger.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognition_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_language_understanding_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_participant.h",
+        "build/native/include/cxx_api/speechapi_cxx_phrase_list_grammar.h",
+        "build/native/include/cxx_api/speechapi_cxx_properties.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_async_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_base_async_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_session.h",
+        "build/native/include/cxx_api/speechapi_cxx_session_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_smart_handle.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_word_boundary_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_translation_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_string_helpers.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_user.h",
+        "build/native/include/cxx_api/speechapi_cxx_utils.h",
+        "build/native/x64/Release/Microsoft.CognitiveServices.Speech.core.dll",
+        "build/native/x64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/x64/Release/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "build/net461/Microsoft.CognitiveServices.Speech.targets",
+        "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/monoandroid/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/monoandroid/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/net461/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net461/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "microsoft.cognitiveservices.speech.1.7.0.nupkg.sha512",
+        "microsoft.cognitiveservices.speech.nuspec",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.core.dylib",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win10-arm/native/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win10-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win10-arm64/native/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win10-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1000,6 +1263,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Microsoft.CognitiveServices.Speech >= 1.7.0",
       "Understand >= 1.0.0",
       "Xamarin.Essentials >= 1.1.0",
       "Xamarin.Forms >= 4.0.0.425677"
@@ -1047,6 +1311,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Microsoft.CognitiveServices.Speech": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.1.0, )"

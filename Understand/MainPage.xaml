@@ -41,7 +41,7 @@
                         Value="Start" />
                 <Setter Property="VerticalOptions"
                         Value="Start" />
-                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="WidthRequest" Value="333" />
                 <Setter Property="HeightRequest" Value="155" />
@@ -110,7 +110,7 @@
     </ContentPage.Resources>
 
     <StackLayout>
-        <Grid>
+        <!--<Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"></RowDefinition>
             </Grid.RowDefinitions>
@@ -120,7 +120,7 @@
                 <ColumnDefinition  Width="111"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-            <Picker x:Name="currentLang" Title="Language" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="0" >
+            <Picker x:Name="currentLang" Title="Language" TitleColor="White" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="0" >
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Blue</x:String>
@@ -129,9 +129,10 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
+
             <ImageButton Source="switchLang" Style="{StaticResource SwitchStyle}" Grid.Column="1"></ImageButton>
-            
-            <Picker x:Name="newLang" Title="Language" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="2" >
+
+            <Picker x:Name="newLang" Title="Language" TitleColor="White" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="2" >
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Blue</x:String>
@@ -140,15 +141,15 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-        </Grid>
-        <Entry Style="{StaticResource EntryStyle}" ></Entry>
-        <Button Text="Translate" Style="{StaticResource TranslateButton}" ></Button>
-        <ImageButton Source="speak" Style="{StaticResource SpeakButton}"></ImageButton>
-        
-        
+        </Grid>-->
+        <Entry x:Name="userInput" Style="{StaticResource EntryStyle}" ></Entry>
+        <Button Text="Translate" Style="{StaticResource TranslateButton}" Clicked="Translate_Button_Clicked"></Button>
+        <!--<ImageButton Source="speak" Style="{StaticResource SpeakButton}"></ImageButton>-->
+
+
         <!--Nav Buttons-->
 
-        <Grid>
+        <!--<Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"></RowDefinition>
             </Grid.RowDefinitions>
@@ -157,12 +158,12 @@
                 <ColumnDefinition  Width="111"></ColumnDefinition>
                 <ColumnDefinition  Width="111"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            
+
             <ImageButton Source="home" Style="{StaticResource HomeButton}" Grid.Column="0" ></ImageButton>
             <ImageButton Source="record" Style="{StaticResource RecordButton}" Grid.Column="1"></ImageButton>
             <ImageButton Source="aperture" Style="{StaticResource ApertureButton}" Grid.Column="2"></ImageButton>
-        </Grid>
-       
+        </Grid>-->
+
     </StackLayout>
 
 </ContentPage>

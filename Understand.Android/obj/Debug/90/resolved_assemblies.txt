@@ -1,6 +1,7 @@
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Understand.Android.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Java.Interop.dll
+C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Microsoft.CognitiveServices.Speech.csharp.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\mscorlib.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Core.dll
@@ -54,14 +55,14 @@ C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\asset
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Net.Http.dll
-C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
-C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
-C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Mono.Security.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\netstandard.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Data.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Transactions.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.IO.Compression.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
+C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Net.Http.dll
+C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
+C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Web.Services.dll
+C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Mono.Security.dll
