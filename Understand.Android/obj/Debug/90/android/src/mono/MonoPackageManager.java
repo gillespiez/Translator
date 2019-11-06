@@ -113,6 +113,7 @@ class MonoPackageManager_Resources {
 		"Understand.Android.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.CognitiveServices.Speech.csharp.dll",
+		"Newtonsoft.Json.dll",
 		"Understand.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

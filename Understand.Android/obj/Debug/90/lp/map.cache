@@ -1,5 +1,6 @@
 FormsViewGroup
 Microsoft.CognitiveServices.Speech.csharp
+Newtonsoft.Json
 System.Runtime
 Understand
 Xamarin.Android.Arch.Core.Common

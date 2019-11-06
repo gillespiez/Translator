@@ -105,8 +105,8 @@
             <Picker x:Name="currentLang" Title="Language" TitleColor="White" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="0" >
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Blue</x:String>
-                        <x:String>Green</x:String>
+                        <x:String>English</x:String>
+                        <x:String>German</x:String>
 
                     </x:Array>
                 </Picker.ItemsSource>
@@ -117,16 +117,16 @@
             <Picker x:Name="newLang" Title="Language" TitleColor="White" Style="{StaticResource PickerStyle}" Grid.Row="0" Grid.Column="2" >
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Blue</x:String>
-                        <x:String>Green</x:String>
+                        <x:String>English</x:String>
+                        <x:String>German</x:String>
 
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
         </Grid>
         <Entry x:Name="userInput" Style="{StaticResource EntryStyle}" ></Entry>
-        <Button Text="Translate" Style="{StaticResource TranslateButton}" Clicked="Translate_Button_Clicked"></Button>
-      <ImageButton Source="speak" Style="{StaticResource SpeakButton}"/>
+        <Button Text="Translate" Style="{StaticResource TranslateButton}" Clicked="Translate_Button_Clicked"/>
+        <ImageButton Source="speak" Style="{StaticResource SpeakButton}" Clicked="Speak_Button_Clicked"/>
 
 
         <!--Nav Buttons-->

@@ -4,6 +4,7 @@ C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\asset
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Microsoft.CognitiveServices.Speech.csharp.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\mscorlib.dll
+C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Core.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.dll
 C:\Users\Mervyn\Desktop\Understand\Understand.Android\obj\Debug\90\android\assets\System.Numerics.dll

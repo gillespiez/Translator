@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Understand.Android", "Under
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Understand.iOS", "Understand.iOS\Understand.iOS.csproj", "{49167557-40AF-487E-9C3F-5CD3DD124A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Understand", "Understand\Understand.csproj", "{83795369-E32E-4EA0-B350-BA3C43400F55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Understand", "Understand\Understand.csproj", "{83795369-E32E-4EA0-B350-BA3C43400F55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

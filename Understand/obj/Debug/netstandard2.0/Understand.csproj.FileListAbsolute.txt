@@ -11,4 +11,3 @@ C:\Users\Mervyn\Desktop\Understand\Understand\bin\Debug\netstandard2.0\Understan
 C:\Users\Mervyn\Desktop\Understand\Understand\bin\Debug\netstandard2.0\Understand.dll
 C:\Users\Mervyn\Desktop\Understand\Understand\bin\Debug\netstandard2.0\ref\Understand.dll
 C:\Users\Mervyn\Desktop\Understand\Understand\bin\Debug\netstandard2.0\Understand.pdb
-C:\Users\Mervyn\Desktop\Understand\Understand\obj\Debug\netstandard2.0\XamlC.stamp
